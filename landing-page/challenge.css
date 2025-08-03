@@ -1,0 +1,155 @@
+/* Challenge CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Georgia", serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+}
+h2{
+  text-align: center;
+  margin-top: 80px;
+}
+
+.logo {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 10px;
+ color:rgb(162, 53, 53);
+}
+
+.logo img {
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+.nav-menu a {
+  margin: 20px;
+  align-content: end;
+  text-decoration: none;
+  color: brown;
+  
+}
+
+.nav-menu a:hover {
+  border: 1px solid grey;
+
+}
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0px;
+  height: 380px;
+  width: 100%;
+  background-image:  url("./chaipatti.png");
+  background-size: 100% auto;
+  background-position: center ;
+  object-fit: contain;
+  opacity: 0.9;
+  box-shadow: 0 0 10px #636060;
+  
+  
+}
+.hero-text{
+  display: flex;
+  color: #5d5656e1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text h1 {
+display: flex;
+justify-content: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 3.4em;
+font-weight: 900;
+
+}
+
+.hero-text p {
+  display:flex;
+  justify-content: center;
+  font-size: 1.1em; 
+  margin-bottom: 15px;
+  font-weight: 500; 
+}
+ 
+
+.shop-button {
+  align-content: center;
+  background-color: brown;
+  color:aliceblue;
+  border-radius: 12px;
+  height: 30px;
+  width: 100px;
+  border: none;
+}
+
+.shop-button:hover {
+  background-color: lightseagreen;
+  cursor: pointer;
+}
+
+.tea-collection {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.tea-collection h2 {
+  color: brown;
+  text-align:center;
+  margin-top: 45px;
+}
+
+.tea-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 120px;
+  justify-content: space-evenly;
+}
+
+.tea-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 10px slategray;
+  justify-content: space-between;
+  height: 180px;
+  width: 350px;
+  margin: 20px;
+  padding-top: 10px;
+  background-color: white;
+  border: 1px solid whitesmoke;
+  border-radius: 12px;  
+}
+.tea-card:hover{
+  background-color: #8d8686;
+  cursor:pointer;
+}
+
+.tea-card h3 {
+  color: brown;
+}
+
+.tea-card p {
+  padding:20px;
+  text-align: center;
+  font-size: 1em;
+}
